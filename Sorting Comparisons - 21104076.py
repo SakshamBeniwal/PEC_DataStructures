@@ -8,7 +8,7 @@
 
 
 # In-place implementation of Bubble Sort
-# Since Bubble Sort is an in-place algorithms, it can only be implemented using in-place
+# Since Bubble Sort is an in-place algorithm, it can only be implemented using in-place
 
 bubble_swap = 0
 bubble_comparison = 0
@@ -69,7 +69,7 @@ print() # Print an empty line
 
 
 # In-place implementation of Selection Sort
-# Since Selection Sort is an in-place algorithms, it can only be implemented using in-place
+# Since Selection Sort is an in-place algorithm, it can only be implemented using in-place
 
 selection_swap = 0
 selection_comparison = 0
@@ -95,7 +95,7 @@ def SelectionSort(array):
         
         if step != min_index:
         
-          # Swap only happens if minimum element not at its correct position
+          # Swap only happens if minimum element is originally not at its correct position
           global selection_swap
           selection_swap += 1
 
