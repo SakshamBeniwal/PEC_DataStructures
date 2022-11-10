@@ -7,7 +7,7 @@
 
 
 
-# In-place implementation of Bubble sort
+# In-place implementation of Bubble Sort
 # Since Bubble Sort is an in-place algorithms, it can only be implemented using in-place
 
 bubble_swap = 0
@@ -42,7 +42,7 @@ def BubbleSort(array):
       break
 
 
-data = [7, 2, -1, 9, 0, -3, 4, 6, -8, 8, 5, 3]
+data = [7, 2, -1, 9, 0, -3, 4, 6, -8, 8, 5, 3] # Placeholder array for demo
 
 print(f"Original array for Bubble Sort: {data}")
 
@@ -68,7 +68,7 @@ print() # Print an empty line
 
 
 
-# In-place implementation of Selection sort
+# In-place implementation of Selection Sort
 # Since Selection Sort is an in-place algorithms, it can only be implemented using in-place
 
 selection_swap = 0
